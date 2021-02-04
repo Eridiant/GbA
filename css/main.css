@@ -16,29 +16,30 @@ img svg{
   text-align: center;
   font-family: Lobster;
   font-size: 60px;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
 }
 .accordion {
   width: 95%;
   max-width: 1140px;
   margin: 20px auto;
 }
-.accordion h1, h2, h3, h4 {
+.accordion h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
-.accordion h2, h3, h4 {
+.accordion h2, h3, h4, h5, h6 {
   font-family: "News Cycle";
 }
 .accordion h1 {
   padding: 15px 20px;
-  background-color: #b8cfec;
+  background-color: #e0e6f1;
   font-family: Lobster;
   font-size: 1.5rem;
   font-weight: normal;
   color: #052f4b;
 }
 .accordion h1:hover {
-  color: #4afcdc;
+  /* color: #4afcdc; */
+  background-color: #ccd1db;
 }
 .accordion h1:first-child {
   border-radius: 10px 10px 0 0;
@@ -54,48 +55,48 @@ img svg{
 }
 .accordion h2 {
   padding: 5px 25px;
-  background-color: #1abc9c;
+  background-color: #f5e9d5;
   font-size: 1.1rem;
-  color: #333;
+  color: #2b1f12;
 }
 .accordion h2:hover {
-  background-color: #09ab8b;
+  background-color: #e4d3b5;
 }
 .accordion h3 {
   padding: 5px 30px;
-  background-color: #b8cfec;
+  background-color: #e0e6f1;
   font-size: .9rem;
   color: #052f4b; 
 }
 .accordion h3:hover {
-  background-color: #a93142;
+  background-color: #ccd1db;
 }
 .accordion h4 {
   padding: 5px 35px;
-  background-color: #ffc25a;
+  background-color: #f5e9d5;
   font-size: .9rem;
-  color: #af720a; 
+  color: #2b1f12;
 }
 .accordion h4:hover {
-  background-color: #e0b040;
+  background-color: #e4d3b5;
 }
 .accordion h5 {
   padding: 5px 35px;
-  background-color: #b8cfec;
+  background-color: #e0e6f1;
   font-size: .9rem;
-  color: #052f4b; 
+  color: #052f4b;
 }
 .accordion h5:hover {
-  background-color: #e0b040;
+  background-color: #ccd1db;
 }
 .accordion h6 {
   padding: 5px 35px;
-  background-color: #b8cfec;
+  background-color: #f5e9d5;
   font-size: .9rem;
-  color: #af720a; 
+  color: #2b1f12; 
 }
 .accordion h6:hover {
-  background-color: #e0b040;
+  background-color: #e4d3b5;
 }
 .accordion p {
   padding: 15px 35px;
