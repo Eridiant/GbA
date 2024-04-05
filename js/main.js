@@ -24,6 +24,11 @@ $(".accordion").click(function(e) {
   }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-    window.Telegram.WebApp.isExpanded = true;
+window.addEventListener('load', () => {
+    if (window?.Telegram?.WebApp) {
+        window.Telegram.WebApp.ready();
+        window.Telegram.WebApp.isExpanded = true;
+        window.Telegram.WebApp.expand();
+        // console.log('isExpanded = ', window.Telegram.WebApp.expand());
+    }
 })
