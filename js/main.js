@@ -25,11 +25,13 @@ $(".accordion").click(function(e) {
 });
 
 window.addEventListener('load', () => {
-    if (window?.Telegram?.WebApp) {
-        console.log('ready = ', window.Telegram.WebApp.ready());
-        window.Telegram.WebApp.ready();
-        // window.Telegram.WebApp.isExpanded = true;
-        window.Telegram.WebApp.expand();
-        // console.log('isExpanded = ', window.Telegram.WebApp.expand());
-    }
+    window.Telegram.WebApp.ready();
+    window.Telegram.WebApp.expand();
+    // if (window?.Telegram?.WebApp) {
+    //     // console.log('ready = ', window.Telegram.WebApp.ready());
+    //     window.Telegram.WebApp.ready();
+    //     // window.Telegram.WebApp.isExpanded = true;
+    //     window.Telegram.WebApp.expand();
+    //     // console.log('isExpanded = ', window.Telegram.WebApp.expand());
+    // }
 })
