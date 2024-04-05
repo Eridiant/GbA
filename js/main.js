@@ -23,3 +23,7 @@ $(".accordion").click(function(e) {
     $(target).css({"border-bottom-right-radius":"0", "border-bottom-left-radius":"0"});
   }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    window.Telegram.WebApp.isExpanded = true;
+})
